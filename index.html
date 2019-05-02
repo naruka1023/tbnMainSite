@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    <title>TBN Software</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Prompt" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="icon" type="image/png" href="images/tbn-main-logo.png">
+</head>
+<body style='font-family: "Prompt", sans-serif; color:white'>
+    <div style='background-color:#006FB6; height:100%'>
+        <div class='container' style='padding-bottom:3em'>
+            <div id='header' class='row' style='margin-bottom:3em'>
+                <div class='col-lg-4 col-md-3 col-sm-6 col-xs-6' style='text-align:left; padding-top:20px'>
+                    <img id='titleLogo' src='images/tbn-main-logo.png'>
+                </div>
+                <div class='navigation col-lg-7 col-md-8' style='padding-top:40px'>
+                    <div style='display:inline-block'>
+                        <span class='navEnt'>HOME</span>
+                        <span class='navEnt'>ABOUT US</span>
+                        <span class='navEnt'>MENDIX</span>
+                        <span class='navEnt'>SOLUTIONS</span>
+                        <span class='navEnt'>WHY US</span>
+                        <span class='navEnt'>CONTACT</span>
+                        <span class='navEnt'>ARTICLES</span>
+                    </div>
+                </div>
+                <div class='navIcon col-sm-6 col-xs-6'><i class="fas fa-bars" style='cursor:pointer' onclick="openNav()"></i></div>
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Mendix</a>
+                    <a href="#">Solutions</a>
+                    <a href="#">Why Us</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Articles</a>
+                  </div>
+            </div>
+            <div class='row' style='text-align:center'>
+                <div id='frameTitle' style='display: inline-flex'>
+                    <div id='title' style='margin-top:150px; font-size:1.2em; width:35%; text-align:left'>
+                        <h1 style='font-weight:bolder; font-size:3.3em'><span>The Trusted Apps Builder</span></h1>
+                        <p>Drive digital innovation the fastest way to transform your ideas into applications</p>
+                        <div id='getStarted'> Get Started</div>
+                    </div>
+                    <div id='titleImage'>
+                        <img id='mainPic' style='width:90%'src='images/tbn-splash-img.png'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id='secondSection' style='text-align:center; margin:auto; margin-top:7em; margin-bottom:7em'>
+        <div style='display:inline-flex; max-width: 1200px; width: 100%'>
+            <div><img id='secondSectionLogo' src='images/tbn-logo-2ndsection.png'></div>
+            <p id='secondSectionParagraph'>TBN was founded in 2008 with the mission to solve the biggest challenge in digital
+            transformation, that is to deliver business application with speed and high-quality.
+            Over the past years, we have successfully implemented enterprise business applications 
+            in various industries including, banking and insurance, manufacturing, retail, an real-estate.
+            </p>
+        </div>
+    </div>
+    <div  style='margin:unset; color:black'>
+        <div id='gartnerFrame' class='col-lg-6 col-md-6' style='padding:unset; height:0px'>
+            <img src='images/tbn-mendix-descript-illustration.jpg' style='width:100%'>
+            <p id='gartnerQuote' style='padding:2em; padding-bottom:0.5em; font-size:2.2em'><i><b>Through 2021, </b>demand for app development  will grow at least <b>5x faster</b> that IT capacity to deliver it</i></p>
+            <div style='display:inline-flex; float:right'>
+                <div id='line' style="border-bottom: 1px solid lightgray;width: 115%;color: white;height: 50%;">fdsasdfdsasdfdsasdf</div>
+                <img id='gartnerName' style='float: right; padding: 0 4em; padding-left:2em; padding-bottom: 4em;' src='images/tbn-gartner.png'>
+            </div>
+        </div>
+        <div class='col-lg-6 col-md-6' style='padding:3em; background-color:#f7f7f7'>
+            <img id='logoImg' src='images/tbn-mendix-logo-content.png'>
+            <div id='rightPassage' style='margin:3em 0'>The most powerful High Productivity and Low Code platform for Enterprise, which can 
+            design and develop 6x faster than traditional coding with built-in Dev Ops capabilities
+            </div>
+            <div class='row'>
+                <div class='col-lg-6 col-md-12 parentCompartment'>
+                    <img src='images/tbn-icon-small.png'>
+                    <div class='compartment'>
+                        <b>Build apps without coding, collaborate with your business</b>
+                        <p>
+                            Build simply and quickly with visual 
+                            development tools. Empower real-time 
+                            collaboration between your business 
+                            and IT teams. Re-use app components 
+                            to speed development.
+                        </p>
+                    </div>
+                </div>
+                <div class='col-lg-6 col-md-12 parentCompartment'>
+                    <img src='images/tbn-icon-small.png'>
+                    <div class='compartment'>
+                        <b>Build beautiful, responsive apps for any device</b>
+                        <p>
+                            Design stunning user interfaces and
+                            experiences with native mobile features and 
+                            offline functionality. Build once, for users across
+                            all devices.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class='row'>
+                <div class='col-lg-6 col-md-12 parentCompartment'>
+                    <img src='images/tbn-icon-small.png'>
+                    <div class='compartment'>
+                        <b>Deliver continuously with an integrated DevOps approach</b>
+                        <p>
+                            Enable continuous delivery with built-in 
+                            DevOps capabilities, or integrate with
+                            Jenkins or your existing DevOps toolset
+                            using Mendix Platform APIs.
+                        </p>
+                    </div>
+                </div>
+                <div class='col-lg-6 col-md-12 parentCompartment'>
+                    <img src='images/tbn-icon-small.png'>
+                    <div class='compartment'>
+                        <b>Deploy anywhere at web scale</b>
+                        <p>
+                            Use any deployment model you want - 
+                            on-premise, public or private cloud. Mendix is 
+                            the only Low Code platform that's fully Cloud
+                            Foundry-, Doctor- and Kubernetes-enabled
+                            so you can deploy high-availability apps at
+                            web scale.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='row' style='margin:unset'>
+        <div class='col-lg-6 col-md-6' id='leftLower' style='padding:12.34em 0; background-color:#006fb6'>
+            <div id='mendixIsHere' style='text-align:center'>
+                <div style='font-size:3.5em'>
+                    <b style='font-size:1.5em'>Mendix</b> is here
+                </div>
+                <div id='seeHow'>See how Mendix empowers enterprises.</div>
+                <div class='getStarted2' style='margin:2em auto; margin-bottom:0; width:30%'>Explore</div>
+            </div>
+        </div>
+        <div class='col-lg-6 col-md-6' style='padding:unset;'>
+            <img id='mendixImage' style='position:relative' src='images/tbn-mendix-assist.png' style='width:100%'>
+            <img id='mendixImage2' style='position:absolute; top:43%; left:44%'src='images/tbn-playbutton.png'>
+        </div>
+    </div>
+    <div style='color:black; text-align:center; margin-top:4em'>
+        <div id='howCanTitle' style='font-size:2.5em; margin-bottom:2em'><b>How can TBN help you?</b></div>
+        <div class='row' id='outerframe3' style='margin:unset; margin-bottom:3em'>
+            <div class='col-lg-3 col-md-6 col-sm-6 assistanceFrame'>
+                <img class='heartImage' src='images/heart.png'>
+                <h4><b>Financial Services</b></h4>
+                <p class='assistanceParagraph'>
+                    TBN delivers solution for financial services 
+                    in areas such as Contact centre work
+                    flow automation, Online payment channels, 
+                    Financial products and services on blockchain,
+                    Automated processes and integrate on top 
+                    of core bangking system and core credit 
+                    card systems
+                </p>
+            </div>
+            <div class='col-lg-3 col-sm-6 assistanceFrame'>
+                <img class='heartImage' src='images/heart.png'>
+                <h4><b>Insurance</b></h4>
+                <p class='assistanceParagraph'>
+                    TBN helps insurance companies to tackle 
+                    the digital transformation challenges by
+                    accelerating time-to-market with Mendix
+                    in areas such as: Workflow automation,
+                    Agent appointment engine, Broker portal,
+                    Claim management, Integrating application
+                    with social medias, AML
+                    (Anti-Money Laundering process)
+                </p>
+            </div>
+            <div class='col-lg-3 col-sm-6'>
+                <img class='heartImage' src='images/heart.png'>
+                <h4><b>Manufacturing and Retail</b></h4>
+                <p class='assistanceParagraph'>
+                    TBN helps manufacturer and large retail
+                    customer to automate manual operational 
+                    process with Mendix, and seamless
+                    integration with existing legacy systems. 
+                    This automation covered process such as
+                    sales, purchase, inventory, planning,
+                    production, and deliveries process
+                </p>
+            </div>
+            <div class='col-lg-3 col-sm-6'>
+                <img class='heartImage' src='images/heart.png'>
+                <h4><b>Real Estate Development</b></h4>
+                <p class='assistanceParagraph'>
+                    TBN helps real estate developer to tackle
+                    the digital transformation challenges by
+                    accelerating time-to-market with
+                    Mendix in areas such as: Automated
+                    processes from CRM, sales, marketing,
+                    payment, and after sales service
+                </p>
+            </div>
+        </div>
+    </div>
+    <div style='background:linear-gradient(rgba(89, 171, 227, .75),rgba(89, 171, 227, 0.7)), url(images/section-bg-03.jpg); background-size:100% 100%; padding-top:3em; text-align:center'>
+        <div id='uniqueAspect' style='font-size:2.5em; font-weight:100'>Unique Aspects of <br> <b style='font-size:2em'>TBN</b></div>
+        <div class='row' id='outerframe3' style= 'margin: unset; padding-bottom: 3em;'>
+            <div class='col-lg-3 col-sm-6 uniqueText firstRow'>
+                <img class='heartImage' src='images/tbn-u-1.png'>
+                <h4><b>Proven Track Records</b></h4>
+                <p>
+                    10 years established in <br>
+                    Thailand with proven records
+                </p>
+            </div>
+            <div class='col-lg-3  col-sm-6 uniqueText firstRow'>
+                <img class='heartImage' src='images/tbn-u2.png'>
+                <h4><b>Mendix Experts</b></h4>
+                <p>
+                    10 years experience with<br>
+                    Mendix Platform
+                </p>
+            </div>
+            <div class='col-lg-3  col-sm-6 uniqueText'>
+                <img class='heartImage' src='images/tbn-u-3.png'>
+                <h4><b>Trusted Professional Team</b></h4>
+                <p>
+                    Local(Thai) team, with experience in<br>
+                    using Mendix in Financial and Services Industry
+                </p>
+            </div>
+            <div class='col-lg-3 col-sm-6 uniqueText'>
+                <img class='heartImage' src='images/tbn-u-4.png'>
+                <h4><b>24/7 support possible</b></h4>
+                <p>
+                    Mendix experts available<br>
+                    to support customer on-site
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class='container footerFrame' style='color:black; margin-top:5em; margin-bottom:4em'>
+        <div class='col-lg-6 col-sm-8'>
+            <div class='footer' style='display:inline-flex'>
+                <img src='images/tbn-foot.png'>
+                <div class='footerText' style='line-height:1.7; margin-left:3em'>
+                    <b>TBN Software Company Limited</b><br>
+                    54 Bangkok Business Building, Fl. 18, Room No.1804 <br>
+                    Sukhumvit 21 (Asoke) Road, Klong Toey Nua, Wattana, <br>
+                    Bangkok, 10110, Thailand <br>
+                    Tel. 083546788
+                </div>
+            </div>
+        </div>
+        <div class='col-lg-6 col-sm-4 footerText' id='lastText' style='text-align:right; margin-top:7em'><b>&#9400; 2019 TBN Software Company Limited</b></div>
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+           
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</body>
+</html>

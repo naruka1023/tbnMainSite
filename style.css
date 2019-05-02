@@ -1,0 +1,453 @@
+.navEnt{
+    padding: 0 11px
+}
+.navIcon{
+    display:none;
+    
+}
+
+#getStarted{
+    text-align: center;
+    color: black;
+    margin-top: 2em;
+    background: #fba70b;
+    font-size: 1.2em;
+    width: 65%;
+    border-radius: 100px;
+    padding: 7px 0;
+}
+.getStarted2{
+    text-align: center;
+    color: black;
+    margin-top: 2em;
+    background: #fba70b;
+    font-size: 1.2em;
+    width: 65%;
+    border-radius: 100px;
+    padding: 7px 0;
+}
+
+#secondSectionParagraph{
+    color: black;
+    text-align: justify;
+    padding-left: 2em;
+    line-height: 1.8em;
+    margin: unset;
+}
+.compartment{
+    width:68%
+}
+.heartImage{
+    width:14em
+}
+.parentCompartment{
+    display:inline-flex
+}
+.parentCompartment img{
+    height:fit-content;
+    padding-right:1em
+}
+.compartment p{
+    font-size:0.9em;
+    margin:2em 0 4em 0;
+    line-height:2em
+}
+.compartment b{
+    font-size:1.1em
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0396dc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+@media only screen and (max-width:1440px){
+    .assistanceParagraph{
+        font-size: 1em;
+        width: 80%;
+        line-height: 1.5em;
+        margin: auto;
+    }
+    #leftLower{
+        padding:7.5em 0 !important
+    }
+    #secondSection{
+        margin:4em 12em !important
+    }
+    #mendixImage{
+        height:405.5px !important
+    }
+    .compartment b{
+        font-size:1.2em !important
+    }
+    .compartment p{
+        font-size: 1em !important;
+        line-height:1.5em !important
+    }
+    #gartnerQuote{
+        font-size:1.9em !important
+    }
+    #secondSectionParagraph{
+        font-size:1.2em !important
+    }
+}
+@media only screen and (max-width: 1200px){
+    #title > h1{
+        font-size:3em !important
+    }
+}
+/* @media only screen and (max-width: 1366px){
+    .compartment p{
+        font-size:0.65em !important
+    }
+    #gartnerQuote{
+        font-size:1.8em !important
+    }
+    #title{
+        margin-top:120px
+    }
+} */
+@media only screen and (max-width: 2560px) {
+    #mendixImage2{
+        top:39% !important
+    }
+    #mendixImage{
+        width:100%;
+        height:fit-content
+    }
+    #secondSectionParagraph{
+        font-size:1.5em
+    }
+    #rightPassage{
+        font-size:1.4em
+    }
+    .compartment b{
+        font-size:1.6em
+    }
+    .compartment p{
+        font-size:1.2em
+    }
+    #title{
+        margin-top:121px !important
+    }
+  }
+  @media only screen and (max-width: 1024px){
+        .navEnt{
+            font-size:0.8em
+        }
+        .assistanceFrame{
+            margin-bottom: 3em
+        }
+        #secondSectionParagraph{
+            font-size:0.7em !important;
+            width: 72% !important
+        }
+        #outerframe3{
+            margin: 0 8em !important;
+            margin-bottom:3em !important
+        }
+        #mainPic{
+            width: 65% !important
+        }
+        #rightPassage{
+            font-size:1.3em;
+            margin-top: 1em !important
+        }
+        #title{
+            margin-top:11px !important;
+            font-size:1.2em !important;
+            margin-left:3em !important;
+            width: 47% !important
+        }
+        .footerText{
+            font-size:0.8em !important
+        }
+        #uniqueAspect{
+            font-size:1.8em !important
+        }
+        .uniqueText{
+            font-size: 0.8em;
+            line-height: 1.8em;
+        }
+        #mendixImage{
+            width:100%;
+            height:265.5px !important
+        }
+        #mendixImage2{
+            top: 31% !important;
+            left: 38% !important;
+        }
+        #leftLower{
+            padding: 4.5em 0 !important;
+        }
+        #mendixIsHere{
+            font-size:0.7em
+        }
+        #logoImg{
+            width: 30%
+        }
+        .compartment{
+            width: 68% !important
+        }
+        .compartment p{
+            width: 356px;
+            font-size: 0.95em !important;
+            margin: 1em 0 1.1em 0 !important;
+            line-height: 1.6em !important;
+        }
+        #lastText{
+            margin-top: 8em !important
+        }
+        .compartment b{
+            font-size:1.4em !important
+        }
+        #gartnerQuote {
+            font-size: 1.8em !important;
+        }
+        #secondSection{
+            text-align:left !important;
+            margin:4em 3em!important;
+            font-size:1.5em
+        }
+        .rightPassage{
+            font-size:0.7em
+        }
+  }
+  @media only screen and (max-width: 992px){
+      #title > h1{
+          font-size: 2.2em !important
+      }
+  }
+    @media only screen and (max-width: 768px){   
+        #header{
+            margin: 0 7em 
+        }   
+        .navIcon{
+            display:unset !important;
+            text-align:right;
+            font-size: 2.3em;
+            margin-top: 1.5em;
+        }  
+        .navigation{
+            display:none !important
+        }
+        #mainPic{
+            width:75% !important
+        }
+        #lastText{
+            margin-top:7.4em !important;
+            text-align:right;            
+        }
+        #lastText b{
+            font-size:0.9em
+        }
+        .firstRow{
+            margin-bottom:3em !important
+        }
+        #title{
+            text-align:center !important;
+            margin:auto !important;
+            font-size:0.9em !important;
+            padding-bottom:3em;
+            width: 100% !important
+        }
+        #title h1{
+            font-size:2.5em !important
+        }
+        #getStarted{
+            margin:auto !important;
+            margin-top:2em;
+            width: 85% !important
+        }
+        .getStarted2{
+            margin:1em auto !important
+        }
+        #secondSection{
+            margin:2em 3em !important
+        }       
+        #secondSection > div > div{
+            text-align:center;
+            margin-bottom:1em
+        }
+        #gartnerFrame{
+            height:465px !important;
+            text-align:center
+        }
+        #gartnerFrame > img{
+            width:50%!important;
+        }
+        #gartnerQuote{
+            font-size: 1.5em !important;
+            width: 53%;
+            margin: auto;
+            text-align: justify;
+        }
+        #gartnerName{
+            margin-right:9em;
+            width: 50% 
+        }
+        #secondSectionParagraph{
+            font-size: 0.5em !important;
+            width: 81% !important;
+            line-height: 2.1em;
+            text-align: left;
+            margin-left: 2em;
+        }
+        #seeHow{
+            padding-bottom: 2em;
+            font-size: 1.5em;
+        }
+        .compartment p, .compartment{
+            width: unset !important
+        }
+        .compartment p{
+            margin: 1em 0 2em 0 !important
+        }
+        #mendixImage{
+            width:100% !important;
+            height:100% !important
+        }
+        #mendixImage2{
+            top: 40% !important;
+            left: 44% !important;
+        }
+        #frameTitle{
+            margin: 0 7em
+        }
+        #titleImage{
+            text-align:right
+        }
+        #title p{
+            width: 74%;
+            text-align: left;
+            margin: auto;
+            padding: 1em 0;
+        }
+    }
+    @media only screen and (max-width: 675px){
+        #title > h1{
+            font-size: 1.7em !important
+        }
+        #title > p{
+            width: 92% !important; 
+            font-size:0.9em !important
+          }
+      }
+    @media only screen and (max-width:425px){
+        #header{
+            margin: 0 1em !important
+        }
+        #titleLogo{
+            width:30%
+        }
+        .footer{
+            display:block !important
+        }
+        .footer >img{
+            margin-left: 2.6em;
+            margin-bottom: 1em;
+            width: 15%;
+            height: 15%;
+        }
+        #gartnerQuote{
+            padding-top:30px;
+            width: 83% !important;
+            font-size:1.3em !important
+        }
+        #lastText{
+            margin-left:3em !important;
+            float: left !important;
+            padding-right:4.3em ;
+            margin-top:1em !important
+        }
+        .footerFrame{
+            margin-top:2.5em !important
+        }
+        #secondSectionLogo{
+            width:25%
+        }
+        #gartnerFrame > img{
+            width:75% !important
+        }
+        #gartnerName{
+            margin-right: unset !important;
+            width: 50%;
+            height: 50%;
+            padding-top: 0.5em !important;
+        }
+        #rightPassage{
+            width: 92%;
+            font-size: 1.1em;
+        }
+        #mendixImage2{
+            top: 28% !important;
+            left: 35% !important;
+        }
+        #outerframe3{
+            margin: 0 5em !important;
+            margin-bottom: 3em !important
+        }
+        #howCanTitle{
+            margin: 0 2em !important;
+            margin-bottom:2em !important
+        }
+        #secondSectionParagraph{
+            margin:auto !important; 
+            text-align:center !important;
+            width: 85.9% !important;
+        }
+        #secondSection div{
+            display:block !important
+        }
+        #titleImage{
+            text-align:center
+        }
+        .navIcon{
+            margin-top:0.7em !important
+        }
+        #title{
+            font-size:0.8em !important;
+            margin-top:4em !important
+        }
+        #title p{
+            text-align:center !important
+        }
+        #frameTitle{
+            display:block !important
+        }
+        .assistanceParagraph{
+            width: 100% !important
+        }
+    }
