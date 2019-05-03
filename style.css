@@ -5,7 +5,16 @@
     display:none;
     
 }
-
+#header{
+    padding-top:2em;
+    transition:all ease-out 0.5s;
+}
+#titleLogo{
+    opacity:1 !important;
+}
+.navigation{
+    opacity:1 !important
+}
 #getStarted{
     text-align: center;
     color: black;

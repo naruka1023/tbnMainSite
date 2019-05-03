@@ -10,36 +10,36 @@
         <link rel="icon" type="image/png" href="images/tbn-main-logo.png">
 </head>
 <body style='font-family: "Prompt", sans-serif; color:white'>
-    <div style='background-color:#006FB6; height:100%'>
-        <div class='container' style='padding-bottom:3em'>
-            <div id='header' class='row' style='margin-bottom:3em'>
-                <div class='col-lg-4 col-md-3 col-sm-6 col-xs-6' style='text-align:left; padding-top:20px'>
-                    <img id='titleLogo' src='images/tbn-main-logo.png'>
-                </div>
-                <div class='navigation col-lg-7 col-md-8' style='padding-top:40px'>
-                    <div style='display:inline-block'>
-                        <span class='navEnt'>HOME</span>
-                        <span class='navEnt'>ABOUT US</span>
-                        <span class='navEnt'>MENDIX</span>
-                        <span class='navEnt'>SOLUTIONS</span>
-                        <span class='navEnt'>WHY US</span>
-                        <span class='navEnt'>CONTACT</span>
-                        <span class='navEnt'>ARTICLES</span>
-                    </div>
-                </div>
-                <div class='navIcon col-sm-6 col-xs-6'><i class="fas fa-bars" style='cursor:pointer' onclick="openNav()"></i></div>
-                <div id="mySidenav" class="sidenav">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Mendix</a>
-                    <a href="#">Solutions</a>
-                    <a href="#">Why Us</a>
-                    <a href="#">Contact</a>
-                    <a href="#">Articles</a>
-                  </div>
+    <div id='header' class='row' style='width:101%; z-index:6; padding-bottom:2em; position:fixed; margin-bottom:3em;background-color:#006FB6'>
+        <div class='col-lg-4 col-md-3 col-sm-6 col-xs-6' style='text-align:center'>
+            <img id='titleLogo' src='images/tbn-main-logo.png'>
+        </div>
+        <div class='navigation col-lg-7 col-md-8' style='padding-top:50px'>
+            <div style='display:inline-block'>
+                <span class='navEnt'>HOME</span>
+                <span class='navEnt'>ABOUT US</span>
+                <span class='navEnt'>MENDIX</span>
+                <span class='navEnt'>SOLUTIONS</span>
+                <span class='navEnt'>WHY US</span>
+                <span class='navEnt'>CONTACT</span>
+                <span class='navEnt'>ARTICLES</span>
             </div>
-            <div class='row' style='text-align:center'>
+        </div>
+        <div class='navIcon col-sm-6 col-xs-6'><i class="fas fa-bars" style='cursor:pointer' onclick="openNav()"></i></div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Mendix</a>
+            <a href="#">Solutions</a>
+            <a href="#">Why Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Articles</a>
+          </div>
+    </div>
+    <div style='background-color:#006FB6; height:100%'>
+        <div class='container'>
+            <div class='row' style='margin-top: 14em; text-align:center'>
                 <div id='frameTitle' style='display: inline-flex'>
                     <div id='title' style='margin-top:150px; font-size:1.2em; width:35%; text-align:left'>
                         <h1 style='font-weight:bolder; font-size:3.3em'><span>The Trusted Apps Builder</span></h1>
@@ -270,5 +270,20 @@
            
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script>
+    window.onscroll = function() {myFunction()};
+    function myFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            $('#header').css('padding-top', '0');
+            $("#header").css('background-color', 'rgba(0,0,0, 0.5)');
+            $("#titleLogo").css('width', '13%').css('padding-top', '1.4em');
+        } else {
+            $('#header').css('padding-top', '2em');
+            $("#titleLogo").css('width', '13%').css('padding-top', '0');
+            $("#header").css('background-color', '#006FB6');
+            $("#titleLogo").css('width', 'unset');
+        }
+    }
+    </script>
 </body>
 </html>
